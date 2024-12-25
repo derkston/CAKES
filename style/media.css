@@ -1,0 +1,31 @@
+@media (max-width : 1400px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width : 1000px) {
+    html {
+        font-size: 10px;
+    }
+    .product__item {
+        max-width: 45%;
+    }
+    .cupcake_search img:nth-child(3) {
+        max-width: 45%;
+    }
+    .gallery__list {justify-content: space-between;}
+    .gallery__item {
+        max-width: 49%;
+    }
+}
+@media (max-width : 735px) {
+    html {
+        font-size: 8px;
+    }
+    .button {padding: 8px 10px;}
+}
+@media (max-width : 500px) {
+    h1 , h2{font-size: 1.5rem; line-height: 1.5rem;}
+    span, p, a {line-height: 1rem;}
+    .cap__item:nth-child(2) .cap__item_link {font-size: .75rem;}
+}
