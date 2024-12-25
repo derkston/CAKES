@@ -1,5 +1,5 @@
 
-let productFetch =  '../../product.json' ;
+let productFetch =  '../product.json' ;
 let productList = []
 
 async function getJSON(url) {
