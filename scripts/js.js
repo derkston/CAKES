@@ -57,15 +57,15 @@ let productFetch = {
 } //'../product.json' ;
 let productList = []
 
-async function getJSON(url) {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error("Выявлена ошибка при выполнении сетевого запроса :(");
-    }
+// async function getJSON(url) {
+//     const response = await fetch(url);
+//     if (!response.ok) {
+//       throw new Error("Выявлена ошибка при выполнении сетевого запроса :(");
+//     }
     
-    return await response.json();
+//     return await response.json();
     
-  }
+//   }
   for (let product in productFetch){
     productList.unshift(productFetch[product])
 }
